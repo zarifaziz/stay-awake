@@ -25,7 +25,10 @@ A Python script to keep your macOS screen awake by simulating keyboard activity.
 2. Install dependencies using Poetry:
 
     ```sh
-    poetry install
+    uv venv
+    source .venv/bin/activate
+
+    uv sync
     ```
 
 ## Usage

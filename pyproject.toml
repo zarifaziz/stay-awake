@@ -1,15 +1,12 @@
-[tool.poetry]
+[project]
 name = "stay-awake"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = [
+    {name = "Zarif Aziz"}
+]
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.10"
-pyautogui = "^0.9.54"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires-python = ">=3.12"
+dependencies = [
+    "pyautogui>=0.9.54"
+]
